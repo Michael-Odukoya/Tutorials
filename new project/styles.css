@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.state-div{
+    position: relative;
+    width:90px;
+}
+.sd{
+   display: flex; 
+}
+.joy{
+    display: none;
+    flex-direction: column;
+    padding-left: 10px;
+    position: absolute;
+}
+.state-div:hover .joy{
+    display: flex;
+    transition: 5s;
+}
+.state-div:hover .micheal{
+    transform: rotate(180deg);
+}
